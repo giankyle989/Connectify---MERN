@@ -9,7 +9,7 @@ const Login = () => {
           <p className="p-2 font-semibold">Building Bridges, Creating Bonds</p>
         </div>
 
-        <div className="grid grid-cols-1 bg-white">
+        <div className="flex flex-col bg-white">
           <input
             className="p-2 border border-black m-2 rounded-md outline-none"
             type="text"
@@ -20,7 +20,7 @@ const Login = () => {
             type="text"
             placeholder="Password"
           />
-          <a className="m-2 text-sm" href="#">
+          <a className="text-sm ml-2 mr-auto " href="#">
             Forgot password?
           </a>
           <button className="bg-sky-400 hover:bg-sky-500 active:bg-sky-600 text-white font-semibold p-2 m-2 rounded-md">
